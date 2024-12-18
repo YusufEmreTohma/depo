@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center; /* Yatayda ortala */
+    align-items: center;     /* Dikeyde ortala */
+    height: 50vh;            /* Tüm ekran yüksekliği */
+    margin: 0;               /* Varsayılan boşlukları kaldır */
+    background-color: #f0f0f0; /* Hafif gri arka plan */
+}
+
+.kutu {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db; /* Kutunun rengi (mavi) */
+    color: white;
+    display: flex;
+    flex-direction: column; /* İçeriği dikey düzenle */
+    align-items: center;    /* Yatayda ortala */
+    justify-content: flex-start; /* Üste hizala */
+    padding-top: 10px;      /* Üstten biraz boşluk bırak */
+    border-radius: 10px;    /* Köşeleri yuvarlak */
+}
